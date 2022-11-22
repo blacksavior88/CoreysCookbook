@@ -1,4 +1,5 @@
-# Java11Cookbook
+# JavaCookbook
+
 My Java Cookbook with note and examples or java concepts, practices, and code examples.
 
 # Java Install
@@ -7,7 +8,7 @@ Some PCs might have Java already installed.
 
 To check if you have Java installed on a Windows PC, search in the start bar for Java or type the following in Command Prompt (cmd.exe):
 
-> `C:\Users\Your Name>java -version`
+> `C:\Users/{YourUserProfileName}>java -version`
 
 If Java is installed, you will see something like this (depending on version):
 
@@ -39,6 +40,7 @@ Let's create our first Java file, called `Main.java`, which can be done in any t
 (like Notepad, Notepad++, VSCode).
 The file should contain a "Hello World" message, which is written with the
 following code:
+
 ```
 public class Main {
   public static void main(String[] args) {
@@ -46,7 +48,12 @@ public class Main {
   }
 }
 ```
-1. Save the code in Notepad as `"Main.java"` 
+
+1. Save the code in Notepad as `"Main.java"`
 1. Open Command Prompt (cmd.exe)
-1. Navigate to the directory where you saved your file and type `"javac Main.java"`: 
->`C:\Users\{{Your User Profile Name}}>javac Main.java`
+1. Navigate to the directory where you saved your file and type `"javac Main.java"`:
+   > `C:\Users\{{YourUserProfileName}}>javac Main.java`
+
+This will compile your code. If there are no errors in the code, the command prompt will take you to the next line. Now, type `"java Main"` to run the file:
+
+> `C:\Users\{{YourUserProfileName}}>java Main`
