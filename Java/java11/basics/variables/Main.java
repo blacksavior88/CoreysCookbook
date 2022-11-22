@@ -1,4 +1,4 @@
-package Java.java11.basics.variables;
+package java.java11.basics.variables;
 
 public class Main {
   public static void main(String[] args) {
